@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "History Cleaner",
+    "version": "1.0",
+    "description": "Create a blacklist with the websites you don't want see in your history.",
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "permissions": [
+      "activeTab",
+      "history",
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["theme.js", "popup.js"]
+      }
+    ]
+  }

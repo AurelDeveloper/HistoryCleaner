@@ -1,0 +1,70 @@
+body {
+  width: 250px;
+  height: 300px;
+  background-color: #D9D9D9;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#form {
+  display: flex; /* Ermöglicht das Nebeneinanderstellen von input und button */
+  justify-content: center; /* Zentriert die Elemente horizontal */
+  margin: 0 auto;
+}
+
+#site {
+  margin-right: 10px; /* Fügt einen rechten Rand zum Eingabefeld hinzu, um etwas Platz zwischen dem Eingabefeld und dem Button zu schaffen */
+}
+
+button {
+  border-radius: 0; /* Entfernt die runden Ecken */
+  border: none; /* Entfernt den Rand */
+  background-color: #ffffff;
+}
+
+input {
+  display: block;
+  color: #000 ;
+  text-align: center;
+  border: none; /* Entfernt den Rand */
+  background-color: white; /* Setzt die Hintergrundfarbe auf Weiß */
+}
+
+.line {
+  width: 90%; /* Breite der Linie */
+  border: 0;
+  border-top: 2px solid #000; /* Farbe und Dicke der Linie */
+  margin: 20px auto; /* Zentriert die Linie und fügt oben und unten einen Abstand von 20px hinzu */
+}
+
+/* popup.css */
+
+#table-container {
+  display: flex;
+  justify-content: center;
+}
+
+#table {
+  text-align: center;
+  width: 20%; /* Ändere die Breite der Tabelle nach Bedarf */
+  font-weight: bold; /* Setze die Schriftstärke auf fett */
+  list-style-type: disc; /* Verwende Punkte als Aufzählungszeichen */
+}
+
+#table.active {
+  display: table;
+}
+
+#table tr button {
+  display: none;
+}
+
+#table tr:hover button {
+  display: inline-block;
+}
