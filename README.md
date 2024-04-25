@@ -1,4 +1,4 @@
-# HistoryCleaner 🕵️‍♂️
+# HistoryCleaner
 
 ## Overview
 Manage your browsing history effortlessly with HistoryCleaner, a Google Chrome extension that empowers you to create a blacklist of websites you'd rather keep off your history radar.
@@ -6,7 +6,7 @@ Manage your browsing history effortlessly with HistoryCleaner, a Google Chrome e
 ![Screenshot 2024-02-17 at 15 25 06](https://github.com/AurelDeveloper/HistoryCleaner/assets/150530607/4c44d80e-713d-4b74-b641-26c286d1cf63)
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 This project is crafted using the following technologies:
 
 * HTML
@@ -30,4 +30,4 @@ Simply install the extension, and you can start curating your browsing history. 
 4. Enable "Developer mode."
 5. Click "Load unpacked" and select the extension directory.
 
-Start managing your browsing history like a pro with HistoryCleaner! 🚀
+Start managing your browsing history like a pro with HistoryCleaner!
